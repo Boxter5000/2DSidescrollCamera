@@ -11,7 +11,7 @@ public class CharacterControllet : MonoBehaviour
     public float jumpHeight = 6.5f;
     public float gravityScale = 1.5f;
 
-    bool facingRight = true;
+    public bool facingRight = true;
     float moveDirection = 0;
     bool isGrounded = false;
     Rigidbody2D r2d;
